@@ -1,9 +1,82 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  html,body{
-    height: 100%;
-    width: 100%;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins';
+}
+html,body{
+  height: 100%;
+  width: 100%;
+}
+#page1{
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+#box{
+  width: 70%;
+  height: 70%;
+  background-color: white;
+}
+#pic{
+  height: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: brown; */
+
+}
+#circle{
+  height: 250px;
+  width: 250px;
+  border-radius: 50%;
+  background-color: bisque;
+  position: relative;
+  overflow: hidden;
+  top: -70px;
+}
+#circle img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+
+  object-position: right;
+}
+#title{
+  text-align: center;
+}
+#data{
+  height: 35%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.value{
+  text-align: center;
+}
+#logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  font-size: 3vw;
+}
+#buttons{
+  height: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+#buttons button{
+  border-radius: 50px;
+  border: none;
+  padding: 13px 44px;
+  font-size: 26px;
+  color: white;
+  background-color: rgb(187, 100, 204);
+}
