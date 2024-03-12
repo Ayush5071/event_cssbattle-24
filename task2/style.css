@@ -15,12 +15,16 @@ html,body{
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: black;
+  background: linear-gradient(to bottom left ,#b5179e,#ffffff,rgb(230, 115, 115))
 }
 #box{
-  width: 70%;
-  height: 70%;
+  width: 65%;
+  height: 75%;
   background-color: white;
+  border-radius: 20px;
+  border: 5px solid rgb(187, 185, 185);
+  box-shadow: 20px 0px 90px rgba(0, 0, 0, 0.5);
+  
 }
 #pic{
   height: 25%;
@@ -38,6 +42,7 @@ html,body{
   position: relative;
   overflow: hidden;
   top: -70px;
+  border: 5px solid rgb(187, 185, 185);
 }
 #circle img{
   height: 100%;
@@ -79,4 +84,9 @@ html,body{
   font-size: 26px;
   color: white;
   background-color: rgb(187, 100, 204);
+}
+#title h1{
+  font-weight: 800;
+  font-size: 40px;
+  color: #b5179e;
 }
